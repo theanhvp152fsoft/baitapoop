@@ -15,7 +15,8 @@ protected:
 public:
     
     // khai bao constructor
-    CanBo(string ho_ten, int tuoi, string gioi_tinh, string dia_chi): ho_ten(ho_ten), tuoi(tuoi), gioi_tinh(gioi_tinh), dia_chi(dia_chi) {}
+    CanBo(string ho_ten, int tuoi, string gioi_tinh, string dia_chi)
+    : ho_ten(ho_ten), tuoi(tuoi), gioi_tinh(gioi_tinh), dia_chi(dia_chi) {}
 
     // Phương thức để truy cập hoTen dùng cho phần dưới
     string getHoTen() const {
